@@ -1,81 +1,123 @@
-Disaster Recovery 
+# Disaster Recovery Platform
 
-Introduction
+A comprehensive web application for managing disaster relief efforts, donations, and aid distribution.
 
-The Disaster Recovery is a web application designed to facilitate the management of disaster-related donations and aid. This platform enables authorized users to securely log in and perform various tasks related to capturing, managing, and allocating both monetary and goods donations.
+## Overview
 
-Features
+The Disaster Recovery Platform is a robust solution designed to streamline disaster response management through efficient handling of monetary and goods donations. The platform features a user-friendly interface with a distinctive purple and orange color scheme.
 
-General Features
+## Key Features
 
-Responsive web application with a color scheme of purple and orange.
+### Donation Management
+- **Monetary Donations**
+  - Date and amount tracking
+  - Anonymous donation support
+  - Real-time balance updates
 
-Secure user authentication for information editing.
+- **Goods Donations**
+  - Category-based organization
+  - Item quantity tracking
+  - Customizable categories
+  - Anonymous donation option
 
-Monetary Donations
+### Disaster Response
+- Comprehensive disaster information tracking
+- Aid type specification
+- Resource allocation system
+- Real-time status monitoring
 
-Capture new monetary donations with mandatory date and amount.
+### User Interface
+- Responsive design
+- Secure authentication
+- Role-based access control
+- Public dashboard
 
-Option for donors to remain anonymous.
+## Technical Specifications
 
-Goods Donations
+### Core Functionality
+- Secure user authentication
+- Dynamic category management
+- Inventory tracking
+- Resource allocation system
 
-Capture new goods donations with mandatory date, number of items, category, and item description.
+### Data Management
+- Donation tracking
+- Disaster information storage
+- Aid distribution monitoring
+- Resource allocation tracking
 
-Option for donors to remain anonymous.
+### Testing
+- Comprehensive unit testing
+- Inventory allocation validation
+- Business logic verification
 
-Pre-configured categories include:
+## Dashboard Features
 
-Clothes
+### Public Access
+- Total monetary donations
+- Goods inventory overview
+- Active disaster status
+- Resource allocation metrics
 
-Non-perishable foods
+### Administrative Features
+- Donation management
+- Category administration
+- Disaster response coordination
+- Resource allocation tools
 
-Authorized users can define new categories of goods.
+## Getting Started
 
-Disaster Management
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/disaster-recovery.git
+2. Install dependencies
+3. Configure database settings
+4. Run the application
 
-Capture new disaster information, including:
+## Development Guidelines
 
-Start and end dates
+- Follow secure coding practices
+- Maintain regular commits
+- Write comprehensive unit tests
+- Document code changes
 
-Location
+## System Requirements
 
-Description
+- Modern web browser
+- Database server
+- Web server
+- Authentication system
 
-Specify required aid types for a disaster (e.g., water provision, clothing, food).
+## Contributing
 
-Lists and Views
+1. Fork the repository
+2. Create a feature branch
+3. Submit pull requests
+4. Follow coding standards
 
-Authorized users can view lists of:
+## Testing
 
-All incoming monetary donations.
+Run unit tests to verify:
+- Donation allocation logic
+- Inventory management
+- User authentication
+- Resource distribution
 
-All incoming goods donations.
+## Security
 
-All disasters.
+- Secure authentication
+- Role-based access
+- Data encryption
+- Input validation
 
-Advanced Features
+## Support
 
-Allocate money and goods to an active disaster.
+[Add support contact information]
 
-Capture the purchase of goods using available money, updating inventory and allocation.
+## License
 
-Unit Tests
+[Add license information]
 
-Unit tests ensure the correctness of logic within the program.
+## Acknowledgments
 
-Example tests include:
-
-Verifying that you cannot allocate more goods than are available.
-
-Frequent commits and pushes are encouraged during development.
-
-Public Access Page (Dashboard)
-
-A publicly accessible dashboard displaying:
-
-Total monetary donations received.
-
-Total number of goods received.
-
-Currently active disasters with allocated money and goods.
+[Add acknowledgments]
